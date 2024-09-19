@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: rgb(2, 26, 12); */
+}
+
+h1{
+    font-style: oblique;
+    background-color: rgba(5, 9, 43, 0.952);
+    color: rgb(255, 255, 255);
+    height: 80px;
+    /* for alligning them height according to their given height  in centre */
+    line-height: 80px;
+}
+
+.choice{
+height:165px;
+width:165px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    /* for betterment of pic display:  */
+    object-fit: cover;
+    /* just for changing the image colour by a technique of shifting the colour by 180 165 */
+    filter: hue-rotate(180deg);
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    /* for vertically & horzontaly alligning  */
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+.choice:hover{
+    /* opacity: 0.5; */
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#U-Score{
+    font-size: 4rem;
+}
+#C-Score{
+    font-size: 4rem;
+}
+
+h3{
+    background-color: rgba(5, 9, 43, 0.952);
+    color: white;
+}
+
+.msg-display{
+    margin-top: 4rem;
+}
+
+#msg{
+    background-color: rgba(5, 9, 43, 0.952);
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+body{
+    background-color: rgb(177, 196, 190);
+}
+
+#btn1{
+    height: 2rem;
+    width: 6rem;
+    border-radius:8px;
+    background-color: rgb(106, 106, 180);
+    color: white;
+    /* font-size: 1rem; */
+}
